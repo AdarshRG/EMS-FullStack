@@ -1,0 +1,72 @@
+React
+-----
+react is a frontend library of jawascript and angular is a framework of node used in frontend
+
+--------------------------------------------------------------
+Angular                       |                  React
+----------------------------------------------------------------
+-Framework                         -library
+-Real Dom                          -virtual Dom       
+-Slower                            -Faster,because of virtual rom less space taken and whole structure wont collapse or recompile..
+                                    (tree network)
+-building blocks                   -building blocks
+  html,css,ts                        html,css,js             
+-------------------------------------------------------------------------------------------------------------
+
+Advantages
+----------
+-Reusable components
+-concept of jsx(JavaScript Xml)
+
+
+INstallation Command
+---------------------
+
+Global- npm i -g create-react-app projectName
+Local - npx create-react-app projectName
+        cd projectName
+        npm start(all in same terminal)
+
+rfce-react function component export(shortcut)
+
+Js api
+--------
+AJAX-asyncronous javascript and Xml
+1-fetch -used in angular
+2-xmlHttps
+3-async await -using React
+
+useEffect-hook used to call functions at the starting of components,its alternate of ngOninit
+
+Redirection
+------------
+react-router-dom -library used for redirection
+
+BrowserRouter -  root component selector
+Route- for path setting
+Routes-used only if more than one path is used
+
+params
+-------
+
+useParams - hook used to access params
+
+Redux
+------
+props drilling-used when lots of coupling(parent child pinem child ...etc)
+To avoid props drilling-we need to reduce coupling and make component independent
+so react intoduce a state managemnt technology called REDUx
+
+redux stores a js store file-to store all data
+
+Redux-libraries
+react-redux
+redux-thunk           npm i redux react-redux redux-thunk(in the same terminal)
+
+
+axios
+------
+used to call api in react
+npm i axios
+
+useSelector-hook used to access data from store
