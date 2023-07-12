@@ -38,7 +38,7 @@ function Home() {
           <div className="w-100 border text-center container bg-primary text-light p-4 mt-3">
             <h1 className="text-center">Employee Management App</h1>
             <p>
-              Today, we’re going to run through how to build a relatively simple
+              Today, we are going to run through how to build a relatively simple
               but no less powerful tool - an employee management app using
               Budibase. Your employees - along with their skills, knowledge, and
               expertise - are some of your most valuable assets. Therefore,
